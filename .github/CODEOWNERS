@@ -1,0 +1,36 @@
+# CODEOWNERS file for order-gateway-392
+# Global owners - will be requested for all PRs
+* @Armor-test/dept-automation @Armor-test/team-core @Armor-test/dept-api
+
+# Directory ownership
+/ui/ @Armor-test/dept-ui @Armor-test/dept-release
+/lib/ @Armor-test/unit-design @Armor-test/team-security @Armor-test/team-frontend
+/test/ @Armor-test/squad-mobile @Armor-test/squad-performance @Armor-test/squad-database
+/spec/ @Armor-test/squad-search @Armor-test/unit-governance
+/src/ @Armor-test/grp-search @Armor-test/squad-database @Armor-test/dept-billing
+/services/ @Armor-test/squad-apps @Armor-test/unit-cloud
+/db/ @Armor-test/squad-mobile @Armor-test/team-core
+/dist/ @Armor-test/dept-security @Armor-test/squad-search
+/app/ @Armor-test/team-frontend @Armor-test/squad-product
+/models/ @Armor-test/team-governance @Armor-test/grp-reporting
+
+# File type ownership
+*.md @Armor-test/team-research @Armor-test/squad-reporting @Armor-test/squad-apps
+*.c @Armor-test/dept-notifications @Armor-test/grp-payments @Armor-test/dept-logging
+*.py @Armor-test/dept-api @Armor-test/squad-search @Armor-test/squad-payments
+*.properties @Armor-test/squad-search @Armor-test/dept-ui
+*.yaml @Armor-test/dept-identity @Armor-test/dept-automation @Armor-test/squad-tooling
+*.js @Armor-test/squad-performance @Armor-test/team-security
+*.json @Armor-test/squad-apps @Armor-test/squad-cache
+*.xml @Armor-test/grp-payments @Armor-test/unit-design
+*.css @Armor-test/squad-cloud @Armor-test/squad-database
+*.swift @Armor-test/team-governance @Armor-test/squad-search
+*.php @Armor-test/team-security @Armor-test/unit-cloud
+*.kt @Armor-test/squad-research @Armor-test/squad-database @Armor-test/dept-automation
+*.yml @Armor-test/grp-search @Armor-test/squad-search
+
+# Security and special files
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+package.json @Armor-test/dependency-team @Armor-test/security
+/src/**/security/ @Armor-test/security @Armor-test/compliance
